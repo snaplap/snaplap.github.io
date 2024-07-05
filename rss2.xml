@@ -9,25 +9,38 @@
     <atom:link href="http://snaplap.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>pwp</description>
-    <pubDate>Fri, 05 Jul 2024 13:54:07 GMT</pubDate>
+    <pubDate>Fri, 05 Jul 2024 14:13:11 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title></title>
+      <link>http://snaplap.github.io/2024/07/05/1/</link>
+      <guid>http://snaplap.github.io/2024/07/05/1/</guid>
+      <pubDate>Fri, 05 Jul 2024 14:13:11 GMT</pubDate>
+      
+      
+      
+      
+      
+      
+      <comments>http://snaplap.github.io/2024/07/05/1/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Markdown 语法</title>
       <link>http://snaplap.github.io/2024/07/05/Markdown%E8%AF%AD%E6%B3%95/</link>
       <guid>http://snaplap.github.io/2024/07/05/Markdown%E8%AF%AD%E6%B3%95/</guid>
-      <pubDate>Fri, 05 Jul 2024 12:58:49 GMT</pubDate>
+      <pubDate>Thu, 04 Jul 2024 16:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;p&gt;#######Markdown 语法######&lt;/p&gt;
-</description>
-        
+      <description>&lt;p&gt;关于Markdown的基本和高级语法&lt;/p&gt;</description>
       
       
       
-      <content:encoded><![CDATA[<p>#######Markdown 语法######</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>关于Markdown的基本和高级语法</p><span id="more"></span><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>使用#号标记，可以表示1-6级标题，随#的个数递增，一号标题字体最大，六号标题字号最小。<br>    例如：<br>    <code># 一级标题          或者用HTML语法：&lt;h1&gt;Heading level 1&lt;/h1&gt;</code><br>    <code>## 二级标题或者用HTML语法：&lt;h2&gt;Heading level 2&lt;/h2&gt;</code><br>    <code>### 三级标题        ...</code><br>    <code>#### 四级标题       ...</code><br>    <code>##### 五级标题      ...</code><br>    <code>###### 六级标题     ...</code></p>]]></content:encoded>
       
+      
+      <category domain="http://snaplap.github.io/categories/%E8%AF%AD%E6%B3%95/">语法</category>
       
       
       
