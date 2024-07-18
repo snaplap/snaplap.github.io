@@ -9,21 +9,31 @@
     <atom:link href="http://snaplap.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>pwp</description>
-    <pubDate>Fri, 05 Jul 2024 14:13:11 GMT</pubDate>
+    <pubDate>Thu, 18 Jul 2024 02:25:22 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title></title>
-      <link>http://snaplap.github.io/2024/07/05/1/</link>
-      <guid>http://snaplap.github.io/2024/07/05/1/</guid>
-      <pubDate>Fri, 05 Jul 2024 14:13:11 GMT</pubDate>
+      <title>关于爬虫</title>
+      <link>http://snaplap.github.io/2024/07/18/%E7%88%AC%E8%99%AB/</link>
+      <guid>http://snaplap.github.io/2024/07/18/%E7%88%AC%E8%99%AB/</guid>
+      <pubDate>Wed, 17 Jul 2024 16:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+</description>
+        
       
       
       
+      <content:encoded><![CDATA[<span id="more"></span>]]></content:encoded>
+      
+      
+      <category domain="http://snaplap.github.io/categories/%E7%88%AC%E8%99%AB/">爬虫</category>
       
       
       
-      <comments>http://snaplap.github.io/2024/07/05/1/#disqus_thread</comments>
+      <comments>http://snaplap.github.io/2024/07/18/%E7%88%AC%E8%99%AB/#disqus_thread</comments>
       
     </item>
     
@@ -37,7 +47,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>关于Markdown的基本和高级语法</p><span id="more"></span><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>使用#号标记，可以表示1-6级标题，随#的个数递增，一号标题字体最大，六号标题字号最小。<br>    例如：<br>    <code># 一级标题          或者用HTML语法：&lt;h1&gt;Heading level 1&lt;/h1&gt;</code><br>    <code>## 二级标题或者用HTML语法：&lt;h2&gt;Heading level 2&lt;/h2&gt;</code><br>    <code>### 三级标题        ...</code><br>    <code>#### 四级标题       ...</code><br>    <code>##### 五级标题      ...</code><br>    <code>###### 六级标题     ...</code></p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>关于Markdown的基本和高级语法</p><span id="more"></span><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>1.使用<code>#</code>号标记(<code>#</code>和文字之间要有空格)，可以表示1-6级标题，随#的个数递增，一号标题字体最大，六号标题字号最小。<br>2.在标题下写任意数量数量的<code>==</code>或者<code>--</code>来表示一级标题和二级标题</p><h2 id="字体语法"><a href="#字体语法" class="headerlink" title="字体语法"></a>字体语法</h2><p>设计粗体，斜体，删除线的方法：<br>   斜体可以使用星号<code>*</code>或者下划线<code>_</code>，单个是斜体，两个是粗体，三个是粗斜</p><p>(快捷键：加粗<code>Ctrl+B</code> 斜体<code>Ctrl+l</code>)</p><h2 id="换行"><a href="#换行" class="headerlink" title="换行"></a>换行</h2><p>1.直接在一句话后加两个空格<br>2.两句话之间加一个空行<br>3.如果你在编辑的时候，想让一行文字在显示的时候换行，就在中间加<code>&lt;br/&gt;</code></p><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>1.Markdown中引用通过符号<code>&gt;</code>来实现。<code>&gt;</code>后面的空格可有可无。<br>2.在引用的区块内，允许换行存在，换行并不会终止引用的区块。如果要结束引用，需要一行空白行来结束引用的区块。<br>3.引用可以嵌套（<code>&gt;</code>,<code>&gt;&gt;</code>,<code>&gt;&gt;&gt;</code>）</p><h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>代码示例：<br>  <code>[链接名称](链接地址)</code><br>  <code>&lt;链接地址&gt;</code></p><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p>代码示例：<br>    <code>![图片描述，可写可不写，但是中括号要有](图片地址，本地链接或者URL地址(url后面添加“#pic_center空格=长x宽”))</code></p><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p>列表分为有序列表和无序列表<br>无序列表：使用<code>*</code>，<code>+</code>，<code>-</code>，再加一个空格作为列表的标记<br>有序列表：使用数字并加上<code>.</code>号，再加上一个空格作为列表的标记</p><p>如果想要控制列表的缩进（层级），则需要在列表符号前使用<code>Tab</code></p><h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><p>在一行中用三个-或者<code>*</code>来建立一个分割线，分割线上面空一行！</p><h2 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h2><p>在删除线的文字前后添加两个<code>~</code></p><h2 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h2><p>下划线的使用和html中类似，在需要添加下划线的文字首尾添加<code>&lt;u&gt;文本内容&lt;/u&gt;</code></p><h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><p>Markdown中代码块有两种：<br>1.如果在一行内需要引用代码，只需要用反引号引起来就好了<br>2.如果是在一个块内（多行）需要引用代码，则在需要引用的代码块的前一行和后一行使用三个反引号，同时在前一个反引号后写入代码的语言。</p><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>表格使用|来分割不同的单元格，使用-来分隔表头和其他行</p><p><code>:-</code>  : 将表头及单元格内容左对齐<br><code>-:</code>  : 将表头及单元格内容右对齐<br><code>:-:</code> : 将表头及单元格内容居中</p><p>代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">| 项目        | 价格   |  数量  |</span><br><span class="line">| --------   | -----:  | :----:  |</span><br><span class="line">| 计算机     | \$1600 |   5     |</span><br><span class="line">| 手机        |   \$12   |   12   |</span><br><span class="line">| 管线        |    \$1    |  234  |</span><br></pre></td></tr></table></figure><p>效果：</p><table><thead><tr><th>项目</th><th align="right">价格</th><th align="center">数量</th></tr></thead><tbody><tr><td>计算机</td><td align="right">$1600</td><td align="center">5</td></tr><tr><td>手机</td><td align="right">$12</td><td align="center">12</td></tr><tr><td>管线</td><td align="right">$1</td><td align="center">234</td></tr></tbody></table><h2 id="脚注"><a href="#脚注" class="headerlink" title="脚注(?)"></a>脚注(?)</h2><p>脚注是对文本的备注，我们时长在论文中看到脚注，在Markdown中的使用方法为<code>a[^数字]</code><br>代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">使用 Markdown[^1]可以效率的书写文档, 直接转换成 HTML[^2], 你可以使用 Typora[^T] 编辑器进行书写。</span><br><span class="line">[^1]:Markdown是一种纯文本标记语言</span><br><span class="line">[^2]:HyperText Markup Language 超文本标记语言</span><br><span class="line">[^T]:NEW WAY TO READ &amp; WRITE MARKDOWN.</span><br></pre></td></tr></table></figure><h2 id="特殊符号"><a href="#特殊符号" class="headerlink" title="特殊符号"></a>特殊符号</h2><p>对于Markdown中的语法符号，前面家反斜线\即可以显示符号本身</p>]]></content:encoded>
       
       
       <category domain="http://snaplap.github.io/categories/%E8%AF%AD%E6%B3%95/">语法</category>
