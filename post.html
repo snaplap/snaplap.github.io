@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>文章 - 个人博客</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- highlight.js theme — GitHub style for code blocks -->
+  <link rel="stylesheet" href="vendor/github.min.css"
+        integrity="sha384-eFTL69TLRZTkNfYZOLM+G04821K1qZao/4QLJbet1pP4tcF+fdXq/9CdqAbWRl/L"
+        crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="post.css" />
+</head>
+<body>
+
+  <!-- ── Header ─────────────────────────── -->
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="logo">
+          <span class="logo-icon" id="logo-icon">✦</span>
+          <span class="logo-text" id="logo-text">My Blog</span>
+        </a>
+        <nav class="nav">
+          <a href="index.html" class="nav-link">← 返回首页</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Main ───────────────────────────── -->
+  <main class="post-main">
+    <div class="container">
+      <div class="post-layout">
+
+        <!-- Article -->
+        <article class="post-article" id="post-article">
+          <div class="loading"></div>
+        </article>
+
+        <!-- Table of contents -->
+        <aside class="post-toc" id="post-toc">
+          <div class="toc-inner">
+            <p class="toc-title">目录</p>
+            <nav id="toc-nav"></nav>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- ── Footer ─────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <p>Built with ❤️ · Powered by GitHub Pages</p>
+    </div>
+  </footer>
+
+  <!-- marked.js for Markdown rendering -->
+  <script src="vendor/marked.min.js"
+          integrity="sha384-odPBjvtXVM/5hOYIr3A1dB+flh0c3wAT3bSesIOqEGmyUA4JoKf/YTWy0XKOYAY7"
+          crossorigin="anonymous"></script>
+  <!-- highlight.js for code syntax highlighting -->
+  <script src="vendor/highlight.min.js"
+          integrity="sha384-F/bZzf7p3Joyp5psL90p/p89AZJsndkSoGwRpXcZhleCWhd8SnRuoYo4d0yirjJp"
+          crossorigin="anonymous"></script>
+  <script src="config.js"></script>
+  <script src="post.js"></script>
+</body>
+</html>
