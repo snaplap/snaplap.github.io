@@ -1,18 +1,5 @@
 [
   {
-    "file": "thinking-fast-and-slow.md",
-    "slug": "thinking-fast-and-slow",
-    "title": "读书笔记：《思考，快与慢》",
-    "date": "2024-03-20",
-    "category": "读书",
-    "tags": [
-      "读书笔记",
-      "心理学",
-      "认知科学"
-    ],
-    "description": "卡尼曼的经典之作揭示了人类思维的两套系统，以及我们在决策中常见的偏差与误区。"
-  },
-  {
     "file": "javascript-async.md",
     "slug": "javascript-async",
     "title": "JavaScript 异步编程：从回调到 async/await",
