@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>个人博客</title>
+  <meta name="description" content="个人笔记与博客" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <!-- ── Header ─────────────────────────── -->
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="logo">
+          <span class="logo-icon" id="logo-icon">✦</span>
+          <span class="logo-text" id="logo-text">My Blog</span>
+        </a>
+        <nav class="nav">
+          <a href="index.html" class="nav-link active">首页</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Main ───────────────────────────── -->
+  <main>
+    <div class="container">
+
+      <!-- Hero -->
+      <section class="hero">
+        <h1 class="hero-title" id="hero-title">Welcome 👋</h1>
+        <p class="hero-desc" id="hero-desc">记录学习与思考，分享技术与生活</p>
+      </section>
+
+      <!-- Category filter bar -->
+      <div class="filter-bar" id="filter-bar">
+        <button class="filter-btn active" data-category="all">全部</button>
+      </div>
+
+      <!-- Two-column layout -->
+      <div class="layout">
+
+        <!-- Posts -->
+        <div class="posts-grid" id="posts-grid">
+          <div class="loading"></div>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+          <div class="sidebar-card">
+            <h3 class="sidebar-title">统计</h3>
+            <div id="sidebar-stats"></div>
+          </div>
+          <div class="sidebar-card">
+            <h3 class="sidebar-title">分类</h3>
+            <ul class="category-list" id="category-list"></ul>
+          </div>
+          <div class="sidebar-card">
+            <h3 class="sidebar-title">关于</h3>
+            <p class="sidebar-about" id="sidebar-about">这里是我的个人笔记与博客，记录技术学习、生活感悟。</p>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- ── Footer ─────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <p>Built with ❤️ · Powered by GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

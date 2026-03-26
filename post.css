@@ -1,0 +1,270 @@
+/* ─────────────────────────────────────────────
+   post.css  — post detail page styles
+───────────────────────────────────────────── */
+
+.post-main { padding: 40px 0 80px; }
+
+/* ── Two-column layout ────────────────────── */
+.post-layout {
+  display: grid;
+  grid-template-columns: 1fr 240px;
+  gap: 48px;
+  align-items: start;
+}
+
+/* ── Article ──────────────────────────────── */
+.post-article {
+  animation: fadeInUp .5s ease both;
+  min-width: 0;
+}
+
+/* ── Post header ──────────────────────────── */
+.post-header {
+  margin-bottom: 40px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--border);
+}
+.post-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-muted);
+  font-size: .85rem;
+  margin-bottom: 18px;
+}
+.post-breadcrumb a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.post-breadcrumb a:hover { text-decoration: underline; }
+
+.post-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+.post-meta-item {
+  color: var(--text-muted);
+  font-size: .85rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.post-title {
+  font-size: 2.1rem;
+  font-weight: 800;
+  line-height: 1.28;
+  color: var(--text-primary);
+  letter-spacing: -.03em;
+  margin-bottom: 14px;
+}
+.post-description {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+.post-header-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+.post-header-tag {
+  font-size: .78rem;
+  color: var(--accent);
+  background: var(--accent-light);
+  padding: 3px 12px;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+/* ── Markdown content ─────────────────────── */
+.post-content {
+  font-size: 1rem;
+  line-height: 1.85;
+  color: var(--text-primary);
+}
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+  font-weight: 700;
+  line-height: 1.35;
+  margin-top: 2.2em;
+  margin-bottom: .75em;
+  color: var(--text-primary);
+  letter-spacing: -.015em;
+}
+.post-content h1 { font-size: 1.75rem; }
+.post-content h2 {
+  font-size: 1.35rem;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+.post-content h3 { font-size: 1.1rem; }
+
+.post-content p { margin-bottom: 1.25em; }
+
+.post-content a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.post-content a:hover { color: var(--accent-hover); }
+
+.post-content code {
+  background: var(--accent-light);
+  color: var(--accent-hover);
+  padding: 2px 7px;
+  border-radius: 5px;
+  font-size: .88em;
+  font-family: 'Fira Code', 'Cascadia Code', 'JetBrains Mono', monospace;
+}
+.post-content pre {
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 22px 26px;
+  border-radius: var(--radius-sm);
+  overflow-x: auto;
+  margin: 1.6em 0;
+  font-size: .875rem;
+  line-height: 1.65;
+  position: relative;
+}
+.post-content pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+  font-size: inherit;
+  font-family: 'Fira Code', 'Cascadia Code', 'JetBrains Mono', monospace;
+}
+.post-content blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 2px 0 2px 22px;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin: 1.6em 0;
+}
+.post-content ul,
+.post-content ol {
+  padding-left: 26px;
+  margin-bottom: 1.25em;
+}
+.post-content li { margin-bottom: .4em; }
+
+.post-content img {
+  max-width: 100%;
+  border-radius: var(--radius-sm);
+  margin: 1.6em 0;
+  box-shadow: var(--shadow);
+  display: block;
+}
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.6em 0;
+  font-size: .9rem;
+}
+.post-content th,
+.post-content td {
+  padding: 10px 16px;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+.post-content th {
+  background: var(--bg);
+  font-weight: 600;
+}
+.post-content tr:hover { background: var(--bg); }
+
+.post-content hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2.4em 0;
+}
+
+/* ── Table of contents ────────────────────── */
+.post-toc {
+  position: sticky;
+  top: 80px;
+  animation: fadeInUp .5s ease .15s both;
+}
+.toc-inner {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 22px;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+}
+.toc-title {
+  font-size: .75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+.toc-item {
+  display: block;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: .8rem;
+  padding: 4px 0 4px 12px;
+  border-left: 2px solid transparent;
+  transition: all var(--transition);
+  line-height: 1.5;
+}
+.toc-item:hover,
+.toc-item.active {
+  color: var(--accent);
+  border-left-color: var(--accent);
+}
+.toc-level-1 { padding-left: 0; font-weight: 600; }
+.toc-level-2 { padding-left: 14px; }
+.toc-level-3 { padding-left: 26px; color: var(--text-muted); }
+
+/* ── Post footer nav ──────────────────────── */
+.post-nav {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 48px;
+  padding-top: 28px;
+  border-top: 1px solid var(--border);
+}
+.post-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: .9rem;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: 1.5px solid var(--accent-light);
+  border-radius: 24px;
+  background: var(--accent-light);
+  transition: all var(--transition);
+}
+.post-nav-btn:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  transform: translateX(-3px);
+}
+
+/* ── Highlight.js override ────────────────── */
+.hljs { background: transparent; }
+
+/* ── Responsive ───────────────────────────── */
+@media (max-width: 960px) {
+  .post-layout { grid-template-columns: 1fr; }
+  .post-toc { display: none; }
+  .post-title { font-size: 1.65rem; }
+}
+@media (max-width: 640px) {
+  .post-main { padding: 24px 0 60px; }
+  .post-content pre { padding: 16px; font-size: .8rem; }
+}
