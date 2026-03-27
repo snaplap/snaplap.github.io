@@ -11,30 +11,5 @@
       "Promise"
     ],
     "description": "从回调函数到 Promise，再到 async/await，梳理 JavaScript 异步编程的演进历程与最佳实践。"
-  },
-  {
-    "file": "css-animation-tips.md",
-    "slug": "css-animation-tips",
-    "title": "CSS 动画技巧：让界面动起来",
-    "date": "2024-02-10",
-    "category": "技术",
-    "tags": [
-      "CSS",
-      "前端",
-      "动画"
-    ],
-    "description": "总结常用的 CSS 动画技巧，包括过渡效果、关键帧动画和性能优化要点。"
-  },
-  {
-    "file": "hello-world.md",
-    "slug": "hello-world",
-    "title": "Hello World，我的第一篇博客",
-    "date": "2024-01-15",
-    "category": "随笔",
-    "tags": [
-      "blog",
-      "start"
-    ],
-    "description": "这是我的个人博客的第一篇文章，记录开始写博客的想法与初衷。"
   }
 ]
